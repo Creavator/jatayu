@@ -1,0 +1,463 @@
+#logo img{
+   height:110px;
+   width:130px;
+   border-radius:10px;
+   float:left;
+}
+#header
+{
+    height: 110px;
+    width:1500px;
+    border-radius:10px;
+    background-color:white;
+    position:fixed;
+    border:1px solid rgba(196, 195, 195, 0.906);
+}
+#logo h4
+{
+    float:right;
+    margin-right:1280px;
+    margin-top:50px;
+}
+input[type="search"]
+{
+    float:right;
+    height:43px;
+    width:500px;
+    border:1px solid rgb(110, 110, 110);
+    margin-top:-50px;
+    margin-right:350px;
+    padding-left:50px;
+    border-radius:40px;
+}
+#search_logo img{
+    height:40px;
+    width:42px;
+    border-radius:20px;
+    float:right;
+    margin-top:-51px;
+    margin-right:270px;
+    border-radius:90px;
+}
+#notification img{
+    height:40px;
+    width:41px;
+    border-radius:20px;
+    border:1px solid rgb(234, 234, 234);
+    float:right;
+    margin-top:-51px;
+    margin-right:290px;
+    border-radius:90px;
+    padding:5px;
+}
+#notification img:hover{
+    background-color:rgb(236, 236, 236);
+}
+
+#protest_logo img{
+    height:70px;
+    width:50px;
+    border-radius:20px;
+    float:right;
+    margin-top:-65px;
+    margin-right:-250px;
+    border-radius:90px;
+    border:1px solid rgb(159, 159, 159);
+    border-radius:50px;
+}
+
+#left
+{
+    height:570px;
+    width:250px;
+    border:1px solid rgb(255, 255, 255);
+    margin-top:120px;
+    position:fixed;
+    border-radius:0px;
+    background-color:rgb(244, 243, 243);
+}
+a{
+    text-decoration:none;
+}
+#home
+{
+    height:0px;
+    width:0px;
+}
+#HOME
+{
+    height:30px;
+    width:200px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(196, 196, 196);
+    margin-left:15px;
+    margin-top:30px;
+    padding-bottom:29px;
+    border-radius:10px;
+}
+#home :hover{
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius:50px;
+    background-color:rgb(196, 196, 196);
+}
+#HOME h4{
+    text-align:center;
+}
+#politics
+{
+    height:0px;
+    width:0px;
+}
+#POLITICS
+{
+    height:30px;
+    width:200px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(196, 196, 196);
+    margin-left:15px;
+    padding-bottom:29px;
+    border-radius:10px;
+    margin-top:90PX;
+}
+#politics :hover{
+    background-color:rgb(196, 196, 196);
+    color:white;
+    color:black;
+    border-radius:50px;
+}
+#POLITICS h4{
+    text-align:center;
+}
+#post
+{
+    height:0px;
+    width:0px;
+}
+#POST
+{
+    height:30px;
+    width:200px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(196, 196, 196);
+    margin-left:15px;
+    padding-bottom:29px;
+    border-radius:10px;
+    margin-top:90PX;
+}
+#post :hover{
+    background-color:rgb(196, 196, 196);
+    color:white;
+    color:black;
+    border-radius:50px;
+}
+#POST h4{
+    text-align:center;
+}
+#short
+{
+    height:0px;
+    width:0px;
+}
+#SHORT
+{
+    height:30px;
+    width:200px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(196, 196, 196);
+    margin-left:15px;
+    padding-bottom:29px;
+    border-radius:10px;
+    margin-top:90PX;
+}
+#short :hover{
+    background-color:rgb(196, 196, 196);
+    color:white;
+    color:black;
+    border-radius:50px;
+}
+#SHORT h4{
+    text-align:center;
+}
+
+
+#profile
+{
+    height:0px;
+    width:0px;
+}
+#PROFILE img
+{
+   margin-top:100px;
+   height:100px;
+   width:99px;
+   margin-left:65px;
+   border-radius:50px;
+}
+#right
+{
+    margin-left:280px;
+    height:10000px;
+    width:1200px;
+    position:fixed;
+    margin-top:125px;
+    border-radius:0px;
+    border:1px solid rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
+    overflow: scroll;
+}
+
+iframe
+{
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    height:430px;
+    width:700px;
+}
+#setting
+{
+    height:0px;
+    width:0px;
+}
+#SETTING
+{
+    height:25px;
+    width:200px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border:1px solid rgb(196, 196, 196);
+    margin-left:15px;
+    padding-bottom:29px;
+    border-radius:10px;
+    margin-top:210px;
+}
+#setting h4{
+    text-align:center;
+}
+
+#video
+{
+    margin-top:10px;
+    height:500px;
+    width:700px;
+    margin-left:250px;
+    border:1px solid rgb(196, 196, 196);
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    
+}
+#content
+{
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    height:500px;
+    width:700px;
+    border:1px solid rgb(196, 196, 196);
+}
+hr{
+    height:1px;
+    color:rgb(196, 196, 196);
+    background-color:black;
+    margin-top:0px;
+}
+
+#interest
+{
+    height:45px;
+    width:1100px;
+    border-radius:40px;
+    margin-left:50px;
+    margin-top:10px;
+    background-color:white;
+    border:1px solid rgb(255, 255, 255);
+    
+}
+#interest #topic1
+{
+    margin-top:8px;
+    margin-left:130px;
+    display:inline-block;
+    height:22px;
+    width:60px;
+    text-align: center;
+    border:1px solid black;
+    background-color: black;
+    border-radius:30px;
+    color:white;
+}
+#interest #topic2
+{
+    margin-top:8px;
+    margin-left:50px;
+    text-align: center;
+    display:inline-block;
+    height:22px;
+    width:100px;
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    border-radius:30px;
+}
+#interest #topic3
+{
+    margin-top:8px;
+    margin-left:50px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    display:inline-block;
+    border-radius:30px;
+    height:22px;
+    width:70px;
+    border:1px solid black;
+}
+#interest #topic4
+{
+    margin-top:8px;
+    margin-left:50px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    display:inline-block;
+    height:22px;
+    width:70px;
+    border-radius:30px;
+    border:1px solid black;
+}
+#interest #topic5
+{
+    margin-top:8px;
+    margin-left:50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    display:inline-block;
+    height:22px;
+    width:70px;
+    border-radius:30px;
+    border:1px solid black;
+}
+#interest #topic6
+{
+    margin-top:8px;
+    margin-left:50px;
+    background-color: black;
+    color:white;
+    display:inline-block;
+    height:22px;
+    text-align: center;
+    border-radius:30px;
+    width:40px;
+    border:1px solid black;
+}
+#interest #topic7
+{
+    margin-top:8px;
+    margin-left:50px;
+    display:inline-block;
+    text-align: center;
+    background-color: black;
+    color:white;
+    border-radius:30px;
+    height:22px;
+    width:70px;
+    border:1px solid black;
+}
+#activity
+{
+    margin-top:12px;
+    margin-left:40px;
+    position:fixed;
+    height:500px;
+    background-color: white;
+    border-radius:50px;
+    width:70px;
+}
+#activity #like img
+{
+    border:1px solid rgb(201, 201, 201);
+    margin-left:6px;
+    margin-top:45px;
+    border-radius:30px;
+    padding:8px;
+}
+#activity #like img:hover{
+    border-radius:50px;
+    background-color:rgb(119, 176, 255);
+    border: 1px solid white;
+}
+
+#activity #dislike img
+{
+    margin-top:30px;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:30px;
+    margin-left:4px;
+    padding:10px;
+}
+#activity #dislike img:hover{
+    border-radius:50px;
+    background-color: rgb(201, 201, 201);
+    border:0px solid rgb(0, 0, 0);
+}
+
+#activity #comment img
+{
+    margin-top:30px;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:30px;
+    margin-left:4px;
+    padding:10px;
+}
+#activity #comment img:hover{
+    border-radius:50px;
+    background-color: rgb(201, 201, 201);
+    border:0px solid rgb(0, 0, 0);
+}
+
+#activity #share img
+{
+    margin-top:30px;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:30px;
+    margin-left:4px;
+    padding:10px;
+}
+#activity #share img:hover{
+    border-radius:50px;
+    background-color: rgb(201, 201, 201);
+    border:0px solid rgb(0, 0, 0);
+}
+
+#activity #report img
+{
+    margin-top:30px;
+    border:1px solid rgb(201, 201, 201);
+    border-radius:30px;
+    margin-left:4px;
+    padding:10px;
+}
+#activity #report img:hover{
+    border-radius:50px;
+    background-color: rgb(201, 201, 201);
+    border:0px solid rgb(0, 0, 0);
+}
+#filter
+{
+    height:0px;
+    width:0px;
+    float:right;
+   
+}
+#filtertopic img{
+    /* margin-right:150px; */
+    border-radius:10px;
+    border:1px solid rgb(255, 255, 255);
+    height:40px;
+    width:43px;
+    background-color:rgb(227, 227, 227);
+}

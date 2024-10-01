@@ -1,0 +1,140 @@
+#LOGO img{
+    height:120px;
+    width:130px;
+}
+#LOGO
+{
+    height:120px;
+    width:130px;
+}
+#logo
+{
+    height:0px;
+    width:0px;
+}
+#profile_box
+{
+    height:310px;
+    border-radius:30px;
+    margin-left:300px;
+    margin-top:50px;
+    width:980px;
+    border:1px solid rgb(206, 206, 206);
+    background-color:rgb(246,246,246);
+}
+#image img
+{
+    height:95px;
+    width:90px;
+    border-radius:40px;
+    margin-left:50px;
+    margin-top:50px;
+    border:2px solid rgb(212, 212, 212);
+    float:left;
+}
+#name
+{
+    float:left;
+    margin-top:70px;
+    margin-left:60px;
+}
+#name h6{
+    margin-left:20px;
+}
+#verify_tick img{
+    height: 20px;
+    float:left;
+    border-radius:15px;
+    margin-left:30px;
+    margin-top:92px;
+    border:1px solid rgb(88, 55, 255);
+}
+#connect
+{
+    height:30px;
+    width:400px;
+    float:right;
+    background-color:white;
+    display: inline;
+    margin-top:30px;
+    margin-right:80px;
+    padding-top:20px;
+    border-radius:30px;
+    padding-bottom:10px;
+    border:1px solid rgb(180, 180, 180);
+}
+#connect h5{
+    display:inline;
+    margin-left:70px;
+}
+#score
+{
+    float:right;
+    height:170px;
+    width:400px;
+    border-radius:40px;
+    margin-right:80px;
+    margin-top:30px;
+    border:1px solid rgb(180, 180, 180);
+    background-color:white;
+}
+#score h1
+{
+   color:red;
+   margin-left:75px;
+   margin-top:55px;
+}
+#score h5{
+    margin-left:180px;
+}
+hr{
+    width:50%;
+    height:1px;
+    margin-left:430px;
+    background-color:gray;
+}
+#post
+{
+    height:0px;
+    width:0px;
+    margin-left:500px;
+    float:LEFT;
+}
+#POST 
+{
+    height:50px;
+    width:200px;
+    margin-left:10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius:0px;
+    background-color:rgb(231, 231, 231);
+}
+#post h3{
+    text-align:center;
+}
+#POST:hover{
+    background-color:rgb(207, 207, 207) ;
+}
+#tokens
+{
+    height:0px;
+    width:0px;
+    display:inline;
+    
+}
+#TOKENS
+{
+    height:50px;
+    width:200px;
+    margin-left:900px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius:0px;
+    background-color:rgb(231, 231, 231);
+}
+#tokens h3{
+    text-align:center;
+}
+#TOKENS:hover
+{
+    background-color: rgb(207, 207, 207);
+}

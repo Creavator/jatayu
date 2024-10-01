@@ -1,0 +1,77 @@
+#logo img
+{
+    height:100px;
+    width:110px;
+}
+#left
+{
+    height:600px;
+    width:190px;
+    float:left;
+    margin-left:20px;
+    border-radius:5px;
+    border:1px solid rgb(211, 211, 211) ;
+    background-color: rgb(238, 238, 238);
+}
+#verticle
+{
+    float:left;
+    height:800px;
+    border:1px solid rgb(198, 198, 198) ;
+    width:0px;
+    margin-left:70px;
+}
+#right
+{
+    float:right;
+    height:590px;
+    width:750px;
+    border-radius:15px;
+    margin-right:200px;
+    border:1px solid rgb(211, 211, 211) ;
+    background-color: rgb(238, 238, 238);
+}
+#EDIT
+{
+    height:0px;
+    width:0px;
+}
+a{
+    text-decoration:none;
+}
+#edit
+{
+    height:35px;
+    width:100px;
+    text-align:center;
+    margin-left:40px;
+    margin-top:50px;
+    border:1p solid black;
+    color:white;
+    background-color:black;
+    border-radius:3px;
+}
+#edit h4{
+    padding-top:8px;
+}
+#change_profile_logo
+{
+    height:0px;
+    width:0px;
+
+}
+#change_logo
+{
+    height:35px;
+    width:100px;
+    text-align:center;
+    margin-left:40px;
+    margin-top:50px;
+    border:1px solid black;
+    color:white;
+    background-color: black;
+    border-radius:3px;
+}
+#change_logo h4{
+border:1px solid red;
+}
