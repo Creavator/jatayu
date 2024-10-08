@@ -4,35 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JATAYU</title>
-    <link rel="stylesheet" href="C:\Users\Shivanshu\OneDrive\Documents\JATAYU\JATAYU\CSS\setting.css">
-    <link rel="shortcut icon" href="C:\Users\Shivanshu\OneDrive\Documents\JATAYU\JATAYU\IMAGE\JATAYULOGO.png" type="image/x-icon">
-   
+    <link rel="shortcut icon" href="C:\Users\Shivanshu\OneDrive\Desktop\project\JATAYU\src\assets\images\JATAYULOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="C:\Users\Shivanshu\OneDrive\Desktop\first\jatayu\CSS\setting.css">
 </head>
 <body>
-        <div id="logo">
-            <img src="C:\Users\Shivanshu\OneDrive\Documents\JATAYU\JATAYU\IMAGE\JATAYULOGO.png" alt="">
-        </div>
-        <hr>
-        <div id="left">
-            <div id="EDIT">
-               <a href="">
-                <div id="edit">
-                    <h4>Edit</h4>
+    <div class="container">
+        <!-- Sidebar hai -->
+        <aside class="sidebar">
+            <a href="home.html">
+                <div class="logo">
+                    <img src="C:\Users\Shivanshu\OneDrive\Desktop\project\JATAYU\src\assets\images\JATAYULOGO.png" alt="Jatayu Logo">
                 </div>
-               </a>
+            </a>
+            <h2>Settings</h2>
+            <ul class="menu">
+                <li><a href="#"class="active"><i class="Information"></i>Personal Information</a></li>
+                <li><a href="#"><i class="security"></i>Security</a></li>
+                <li><a href="#"><i class="privacy"></i>Privacy</a></li>
+                <li><a href="#"><i class="notification"></i>Notification</a></li>
+                <li><a href="#"><i class="payment"></i>Payment</a></li>
+                <li><a href="#"><i class="Help"></i>Help & Support</a></li>
+                <li><a href="#"><i class="feedback"></i>Feedback</a></li>
+            </ul>
+            <div class="appearance-settings">
+                <div class="night-mode">
+                    <span>Night mode</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                
             </div>
-            <div id="change_profile_logo">
-                <a href="">
-                    <div id="change_logo">
-                        <h4>Profile logo</h4>
-                    </div>
-                </a>
+        </aside>
+        <!-- Main Content -->
+        <main class="profile-settings">
+            <h2>Profile</h2>
+            <div class="profile-pic">
+                <img src="C:\Users\Shivanshu\OneDrive\Desktop\project\JATAYU\src\assets\images\BOY_AVATAR.png" alt="Profile Picture">
+                <button class="change-photo-btn">Change Photo</button>
             </div>
-        </div>
-        <div id="verticle">
-
-        </div>
-        <div id="right">
-        </div>
+            <form action="#" class="profile-form">
+                <div class="form-group">
+                    <label for="edit-name"><b>Edit name</b></label>
+                    <input type="text" id="edit-name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="anonymous-name"><b>Anonymous name</b></label>
+                    <input type="text" id="anonymous-name" placeholder="Input Anonymous name">
+                </div>
+                <button type="submit" class="update-btn">Update</button>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
